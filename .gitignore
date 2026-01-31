@@ -1,0 +1,26 @@
+# Data files (Never upload medical data to GitHub!)
+data/
+*.nii.gz
+*.nii
+*.csv
+
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Model Weights
+*.pth
+*.pt
+*.h5
+
+# OS specific
+.DS_Store
+Thumbs.db
